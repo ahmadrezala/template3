@@ -1,3 +1,3 @@
 # template3
 ## Live Demo
-  https://ahmadrezala.github.io/template3/
+  https://ahmadrezala.github.io/template3/index.html
