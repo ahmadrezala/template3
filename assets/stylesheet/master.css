@@ -1,0 +1,306 @@
+.head_top {
+  width: 100%;
+  height: 160vh;
+  background-color: #002632;
+  justify-content: center;
+}
+.head_top > .navbar {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+}
+.head_top > .navbar > h3 {
+  display: flex;
+  width: 33%;
+  font-size: 30px;
+  color: white;
+  justify-content: center;
+}
+.head_top > .navbar > h3:nth-of-type(2) {
+  font-size: 22px;
+  color: #ff7a01;
+}
+.head_top > .navbar > nav {
+  width: 33%;
+  height: 100%;
+  align-items: center;
+}
+.head_top > .navbar > nav > ul {
+  width: 100%;
+  justify-content: space-between;
+  color: white;
+}
+.head_top > .navbar > nav > ul > li:hover > a {
+  color: #b2b2b2;
+}
+.head_top > .hero {
+  width: 90%;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.head_top > .hero > figure {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-right: 180px;
+}
+.head_top > .hero > figure > img {
+  width: 100%;
+  z-index: 9999;
+}
+.head_top > .hero > figure > .div1 {
+  width: 92px;
+  height: 120px;
+  background-color: #ff7a01;
+  position: absolute;
+  right: -35px;
+  top: -40px;
+  bottom: 0;
+}
+.head_top > .hero > figure > .div2 {
+  width: 92px;
+  height: 120px;
+  background-color: #ff7a01;
+  position: absolute;
+  left: -35px;
+  bottom: -40px !important;
+}
+.head_top > .hero > article {
+  width: 30%;
+  color: white;
+  min-height: 800px;
+  margin-left: 180px;
+}
+.head_top > .hero > article > h1 {
+  font-size: 90px;
+  margin-bottom: 6rem;
+}
+.head_top > .hero > article > p {
+  font-size: 1.25rem;
+  margin-bottom: 6rem;
+}
+.head_top > .hero > article > div {
+  height: 70px;
+}
+.head_top > .hero > article > div > a {
+  height: 100%;
+  padding: 0px 45px;
+  display: flex;
+  align-items: center;
+  background-color: #ff7a01;
+  border: 1px solid #ff7a01;
+  transition: 0.3s;
+}
+.head_top > .hero > article > div > a:hover {
+  background: inherit;
+  color: #ff7a01;
+}
+.head_top .census {
+  margin-top: 160px;
+  width: 75%;
+  height: 150px;
+  background-color: #fff;
+  box-shadow: 0 4px 2px -2px #f0f1f2;
+  justify-content: center;
+}
+.head_top .census > span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+}
+.head_top .census .number {
+  font-size: 40px;
+}
+
+.main_about {
+  justify-content: center;
+}
+.main_about .about {
+  display: flex;
+  width: 90%;
+  height: 130vh;
+  margin-top: 100px;
+  justify-content: space-around;
+}
+.main_about .about > .about_left {
+  width: 30%;
+}
+.main_about .about > .about_left > h3 {
+  font-size: 64px;
+  margin-bottom: 5rem;
+}
+.main_about .about > .about_left > p {
+  color: #8f8ba5;
+  font-size: 1.25rem;
+  margin-bottom: 5rem;
+}
+.main_about .about > .about_left > figure {
+  width: 70%;
+  position: relative;
+}
+.main_about .about > .about_left > figure > img {
+  width: 100%;
+  z-index: 9999;
+}
+.main_about .about > .about_left > figure > .div1 {
+  width: 92px;
+  height: 120px;
+  background-color: #ff7a01;
+  position: absolute;
+  right: -35px;
+  bottom: -40px;
+  z-index: -100;
+}
+.main_about .about > .about_left > figure > .div2 {
+  width: 92px;
+  height: 120px;
+  background-color: #ff7a01;
+  position: absolute;
+  left: -35px;
+  top: -40px;
+  z-index: -100;
+}
+.main_about .about > .about_right {
+  width: 30%;
+  margin-top: 60px;
+}
+.main_about .about > .about_right > .p1 {
+  color: #8f8ba5;
+  font-size: 1.5rem;
+  margin-bottom: 70px;
+}
+.main_about .about > .about_right > .p2 {
+  color: #8f8ba5;
+  font-size: 1.5rem;
+  margin-bottom: 70px;
+}
+.main_about .about > .about_right > a {
+  width: 200px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff7a01;
+  border: 1px solid #ff7a01;
+  color: white;
+  transition: 0.3s;
+}
+.main_about .about > .about_right > a:hover {
+  background: inherit;
+  color: #ff7a01;
+}
+
+.gallery_section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.gallery_section .gallery {
+  width: 90%;
+  justify-content: center;
+}
+.gallery_section .gallery > div:nth-of-type(1) {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.gallery_section .gallery > div:nth-of-type(1) > h3 {
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+.gallery_section .gallery > div:nth-of-type(1) > p {
+  width: 60%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.gallery_section .gallery > div:nth-of-type(2) {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.gallery_section .gallery > div:nth-of-type(2) > figure {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  height: 700px;
+  margin: 60px 20px;
+}
+.gallery_section .gallery > div:nth-of-type(2) > figure > img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.gallery_section .gallery > div:nth-of-type(2) > figure > figcaption > * {
+  padding-top: 20px;
+}
+.gallery_section .gallery > div:nth-of-type(2) > figure > figcaption > h3 {
+  font-size: 30px;
+}
+.gallery_section .gallery > div:nth-of-type(3) {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.gallery_section .gallery > div:nth-of-type(3) > a {
+  width: 200px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff7a01;
+  border: 1px solid #ff7a01;
+  color: white;
+  transition: 0.3s;
+}
+.gallery_section .gallery > div:nth-of-type(3) > a:hover {
+  background: inherit;
+  color: #ff7a01;
+}
+
+.capture {
+  width: 100%;
+  height: 70vh;
+  background-color: #002632;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.capture > div {
+  text-align: center;
+  width: 90%;
+  color: white;
+}
+.capture > div > h3 {
+  font-size: 70px;
+  padding: 30px 0;
+}
+.capture > div > p {
+  padding-bottom: 30px;
+}
+.capture > div > div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.capture > div > div > a {
+  width: 200px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff7a01;
+  border: 1px solid #ff7a01;
+  color: white;
+  transition: 0.3s;
+}
+.capture > div > div > a:hover {
+  background: inherit;
+  color: #ff7a01;
+}/*# sourceMappingURL=master.css.map */
